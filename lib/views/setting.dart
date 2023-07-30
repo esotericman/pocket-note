@@ -10,14 +10,14 @@ class Setting extends StatefulWidget {
 class _SettingState extends State<Setting> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      backgroundColor: Colors.grey,
-      body: Padding(
+    return Scaffold(
+      backgroundColor: Colors.grey[800],
+      body: const Padding(
         padding: EdgeInsets.fromLTRB(30.0, 40.0, 30.0, 0.0),
         child: Column(
           children: [
             CircleAvatar(
-              backgroundImage: AssetImage("assets/chun-li.jpg"),
+              backgroundImage: AssetImage("assets/images/chun-li.jpg"),
               radius: 40.0,
             ),
             Divider(
